@@ -1,0 +1,36 @@
+.audi{
+    margin: 0px;
+color:white;
+    font-family: "Audiowide", sans-serif;
+background-color: black;
+}
+.navbar{
+    font-size:20px;
+    font-family:monospace;
+    position: fixed;
+    color: white;
+}
+.elec{
+    font-size: 30px;
+    font-family: "Trirong", serif;
+}
+h3{font-family: "Trirong", serif;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Trirong", serif;
+  }
+th{
+    font-size:20px;
+    font-family: "Trirong", serif;
+}
+td{
+    font-size: 18px;
+    font-family: "Trirong", serif;
+}
+.list{width: 25%;
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: "Trirong", serif;
+}
