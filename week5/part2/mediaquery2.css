@@ -1,0 +1,83 @@
+@media only screen and (min-width:600px)
+{*, html, body{         
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+#grid-container {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+header {
+    height: 100px;
+    color: white;
+    background-color: gray;
+    grid-column: 1/5;
+}
+
+.sidebar1 {
+    color: white;
+    background-color: rgb(77, 77, 77);
+    grid-column: 1/5;
+}
+
+main {
+    color: white;
+    background-color: rgb(77, 77, 77); 
+    grid-column: 1/5;
+}
+
+.sidebar2 {
+    color: black;
+    background-color: lightgray;
+    grid-column: 1/5;
+}
+
+footer {
+    color: white;
+    background-color:gray;
+    grid-column: 1/5;
+}
+}
+@media only screen and (min-width:600px) {
+    .grid-container {
+       width: 100%;
+    }
+    .sidebar1 {
+        height: 100px;
+        grid-column: 1/2;
+    }
+    main {
+        height: 200px;
+        grid-column: 1/5;
+    }
+    .sidebar2 {
+        height: 100px;
+        grid-column: 1/5;
+    }
+    footer{
+        height: 100px;
+        grid-column: 1/5;
+    }
+}
+
+
+@media only screen and (min-width:1200px) {
+    .grid-container {
+       width: 100%;
+    }
+    .sidebar1 {
+        height: 200px;
+        grid-column: 1/2;
+    }
+    main {
+        grid-column: 2/4;
+    }
+    .sidebar2 {
+        height: 200px;
+        grid-column: 4/5;
+    }
+}
