@@ -1,0 +1,130 @@
+.nav{ 
+    background-color: rgba(24, 24, 24, 0.445);
+    border: 5px solid rgba(24, 24, 24, 0.445);
+    font-family: 'Koulen', cursive;
+    font-size: 22px;
+    color:black;
+    word-spacing: 200px;
+    text-align: center;
+}
+a{color: black;
+   text-decoration: none;}
+
+   .container {
+     
+    position: relative;
+    text-align: center;
+    color: white;
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+    }
+    
+    @keyframes fadeInOpacity {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+   
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 60px;
+    opacity: 80%;
+    font-family:  'Mukta', sans-serif;
+
+  }
+  h1{
+    font-family:  'Mukta', sans-serif;
+    text-align: center;
+
+  }
+ .table{
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+ }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:  'Mukta', sans-serif;
+    text-align: center;
+    
+   
+  }
+th{
+    font-size:30px;
+    font-family:  'Mukta', sans-serif;
+    text-align: center;
+}
+td{
+    font-size: 24px;
+    font-family:  'Mukta', sans-serif;
+    align-items: center;
+}
+p { font-size: 18px;
+    font-family:  'Mukta', sans-serif;}
+h2{ font-size: 24px;
+    font-family:  'Mukta', sans-serif;
+    text-align: center;
+}
+ul{
+    list-style:none
+}
+.sportsback{
+  padding:50px;
+display: flex;
+margin-right: 10px;
+}
+header{
+text-align: center;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 75px 75px 75px 75px;
+  grid-gap: 10px;
+  background-color: rgba(24, 24, 24, 0.445);
+  padding: 10px;
+  }
+  .grid-container > div {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+  }.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8{
+    grid-column: span 2;
+    background-color: rgba(24, 24, 24, 0.445);
+   }
+   .table2{
+     text-align: center;
+     align-items: center;
+   }
+   h3{
+     font-size:13px;
+    font-family:  'Mukta', sans-serif;
+
+   }
+   .offer{
+     margin: 50px;
+   }
+ 
